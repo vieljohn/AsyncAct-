@@ -38,7 +38,7 @@ public class Async_Sare {
             System.out.println("[B] Withdrawal");
             System.out.print("Select Transaction: ");
 
-            String userTransaction = input.nextLine().trim().toUpperCase(); // read input safely
+            String userTransaction = input.nextLine().trim().toUpperCase(); // read input , function stack 
 
             switch (userTransaction) {
                 case "A": // deposit case 
@@ -100,6 +100,6 @@ public class Async_Sare {
             }
         }
 
-        input.close();
+        input.close(); //close input function 
     }
 }
